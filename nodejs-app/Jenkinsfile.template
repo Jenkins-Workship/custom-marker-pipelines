@@ -32,7 +32,7 @@ pipeline {
       }
       input {
         message "Should we continue?"
-        submitter "ops"
+        submitter "brianrwelch-ops"
         submitterParameter "APPROVER"
       }
       steps {
